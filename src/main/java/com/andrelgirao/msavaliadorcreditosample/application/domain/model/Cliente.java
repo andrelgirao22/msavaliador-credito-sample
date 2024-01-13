@@ -11,9 +11,12 @@ public class Cliente {
     private String cpf;
     private String nome;
 
-    public Cliente(String cpf, String nome) {
+    private Integer idade;
+
+    public Cliente(String cpf, String nome, Integer idade) {
         this.cpf = cpf;
         this.nome = nome;
+        this.idade = idade;
     }
 
 }
